@@ -11,3 +11,6 @@
         steps:
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
+            env:
+              HELLO: ${{secrets.HELLO}}
+              TEST: testing env
