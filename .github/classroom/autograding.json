@@ -3,9 +3,9 @@
     {
       "name": "test01",
       "setup": "",
-      "run": "echo $HELLO",
+      "run": "echo $HELLO; env",
       "input": "",
-      "output": "hello, world",
+      "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": null
