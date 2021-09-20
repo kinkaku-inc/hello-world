@@ -1,8 +1,8 @@
     name: GitHub Classroom Workflow
 
     on: [push]
-    env:
-      HELLO: ${{secrets.HELLO}}
+    # env:
+    #   HELLO: ${{secrets.HELLO}}
 
     jobs:
       build:

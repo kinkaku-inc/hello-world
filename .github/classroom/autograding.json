@@ -3,7 +3,7 @@
     {
       "name": "test01",
       "setup": "",
-      "run": "echo $HELLO; env",
+      "run": "echo \"env: $HELLO\"; env",
       "input": "",
       "output": "",
       "comparison": "exact",
