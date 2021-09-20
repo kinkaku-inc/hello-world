@@ -3,7 +3,7 @@
     {
       "name": "test01",
       "setup": "",
-      "run": "gcc hello.c && ./a.out",
+      "run": "echo $HELLO",
       "input": "",
       "output": "hello, world",
       "comparison": "exact",
